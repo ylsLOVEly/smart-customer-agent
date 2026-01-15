@@ -1,0 +1,45 @@
+[
+  {
+    "case_id": "C001",
+    "user_query": "你们平台的计费模式是怎样的？",
+    "api_status": "200 OK",
+    "api_response_time": "120ms",
+    "monitor_log": []
+  },
+  {
+    "case_id": "C002",
+    "user_query": "刚才模型是不是挂了？怎么一直没反应？",
+    "api_status": "500 Internal Server Error",
+    "api_response_time": "Timeout",
+    "monitor_log": [
+      {"timestamp": "10:00:01", "status": "Error", "msg": "Connection Refused"}
+    ]
+  },
+  {
+    "case_id": "C003",
+    "user_query": "系统今天稳定吗？",
+    "api_status": "200 OK",
+    "api_response_time": "150ms",
+    "monitor_log": [
+      {"timestamp": "09:30:15", "status": "Error", "msg": "Timeout Error"},
+      {"timestamp": "10:15:22", "status": "Warning", "msg": "High Latency"}
+    ]
+  },
+  {
+    "case_id": "C004",
+    "user_query": "如何注册平台账号？",
+    "api_status": "200 OK",
+    "api_response_time": "90ms",
+    "monitor_log": []
+  },
+  {
+    "case_id": "C005",
+    "user_query": "刚才API是不是有问题？",
+    "api_status": "503 Service Unavailable",
+    "api_response_time": "500ms",
+    "monitor_log": [
+      {"timestamp": "11:20:45", "status": "Error", "msg": "Service Unavailable"},
+      {"timestamp": "11:25:10", "status": "Error", "msg": "Gateway Timeout"}
+    ]
+  }
+]

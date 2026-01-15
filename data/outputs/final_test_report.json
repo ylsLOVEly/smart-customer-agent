@@ -1,0 +1,28 @@
+{
+  "test_summary": {
+    "component_success_rate": 66.66666666666666,
+    "agent_integration_success": false,
+    "overall_success": false,
+    "test_time": "2026-01-14 17:20:45"
+  },
+  "component_results": {
+    "vector_rag": {
+      "status": "partial",
+      "results_count": 0,
+      "details": "使用降级文本匹配"
+    },
+    "advanced_cache": {
+      "status": "success",
+      "hit_rate": 100.0,
+      "memory_entries": 1
+    },
+    "prometheus_metrics": {
+      "status": "success",
+      "total_requests": 1,
+      "uptime": "0秒"
+    }
+  },
+  "agent_data": {
+    "error": "No module named 'agents.tools'"
+  }
+}

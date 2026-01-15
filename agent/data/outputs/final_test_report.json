@@ -1,0 +1,107 @@
+{
+  "test_summary": {
+    "component_success_rate": 66.66666666666666,
+    "agent_integration_success": true,
+    "overall_success": false,
+    "test_time": "2026-01-14 19:57:07"
+  },
+  "component_results": {
+    "vector_rag": {
+      "status": "partial",
+      "results_count": 0,
+      "details": "使用降级文本匹配"
+    },
+    "advanced_cache": {
+      "status": "success",
+      "hit_rate": 100.0,
+      "memory_entries": 1
+    },
+    "prometheus_metrics": {
+      "status": "success",
+      "total_requests": 1,
+      "uptime": "0秒"
+    }
+  },
+  "agent_data": {
+    "final_metrics": {
+      "uptime_seconds": 72.75783514976501,
+      "uptime_formatted": "1分钟12秒",
+      "requests": {
+        "total": 0,
+        "success": 0,
+        "error": 0,
+        "success_rate": 0.0
+      },
+      "performance": {
+        "avg_response_time": 0.0,
+        "min_response_time": 0,
+        "max_response_time": 0
+      },
+      "cache": {
+        "hits": 0,
+        "misses": 0,
+        "hit_rate": 0.0
+      },
+      "models": {},
+      "errors": {},
+      "last_updated": "2026-01-14T19:57:07.715134"
+    },
+    "final_cache_stats": {
+      "hit_rate": 0.0,
+      "hits": {
+        "memory": 0,
+        "disk": 0,
+        "redis": 0
+      },
+      "misses": 7,
+      "evictions": 0,
+      "operations": {
+        "get": 7,
+        "set": 7,
+        "delete": 0
+      },
+      "size_info": {
+        "memory_entries": 7,
+        "memory_bytes": 3430,
+        "memory_usage": "0MB",
+        "memory_limit": "20MB"
+      },
+      "config": {
+        "redis_available": false,
+        "default_ttl": 300,
+        "cleanup_interval": 300
+      }
+    },
+    "search_results": [
+      {
+        "query": "平台的计费模式",
+        "results_count": 1,
+        "search_time": 0.0008091926574707031
+      },
+      {
+        "query": "系统稳定性",
+        "results_count": 0,
+        "search_time": 0.0006546974182128906
+      },
+      {
+        "query": "API调用问题",
+        "results_count": 0,
+        "search_time": 0.0006146430969238281
+      }
+    ],
+    "test_case_result": {
+      "case_id": "TEST_ENHANCED",
+      "reply": "您好！关于平台的计费模式，目前我这边没有找到详细的计费说明信息。 为了确保您能获得最准确、最新的计费标准、套餐详情或优惠政策，建议您直接联系我们的**人工客服**或查看平台官网的“价格”或“帮助中心”版块。他们能为您提供最权威的解答。 对于给您带来的不便，我们深表歉意。如果还有其他我能协助您的问题，请随时告诉我！",
+      "action_triggered": null
+    },
+    "alert_case_result": {
+      "case_id": "TEST_ALERT",
+      "reply": "根据系统监控数据，系统确实出现了异常情况： 1. **API状态**：当前返回500 Internal Server Error（服务器内部错误） 2. **响应时间**：出现超时现象 3. **监控日志**：在10:00:01检测到连接被拒绝的错误记录 这表明确实存在系统访问异常的问题，我们的技术团队正在紧急处理中。建议您稍后再试，或通过其他渠道联系客服获取最新进展。给您带来不便，我们深表歉意。",
+      "action_triggered": [
+        {
+          "feishu_webhook": "Sent success (Enhanced)"
+        }
+      ]
+    }
+  }
+}

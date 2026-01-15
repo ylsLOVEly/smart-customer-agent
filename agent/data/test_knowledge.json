@@ -1,0 +1,10 @@
+{
+  "billing": {
+    "pay_per_use": "按量付费：根据实际API调用次数计费，价格为0.01元/次",
+    "monthly_plan": "包月套餐：固定月费99元，包含1万次调用"
+  },
+  "support": {
+    "contact": "技术支持邮箱: support@platform.com",
+    "hours": "服务时间: 工作日9:00-18:00"
+  }
+}

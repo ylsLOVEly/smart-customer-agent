@@ -1,0 +1,25 @@
+{
+  "test_results": {
+    "vector_rag": {
+      "status": "partial",
+      "results_count": 0,
+      "details": "使用降级文本匹配"
+    },
+    "advanced_cache": {
+      "status": "success",
+      "hit_rate": 100.0,
+      "memory_entries": 1
+    },
+    "prometheus_metrics": {
+      "status": "success",
+      "total_requests": 1,
+      "uptime": "0秒"
+    }
+  },
+  "test_time": 1768391754.898657,
+  "summary": {
+    "total_components": 3,
+    "successful_components": 2,
+    "failed_components": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "test_results": {
+    "vector_rag": {
+      "status": "success",
+      "results_count": 0,
+      "details": "使用降级文本匹配（向量化功能降级运行）",
+      "vector_mode": "fallback"
+    },
+    "advanced_cache": {
+      "status": "success",
+      "hit_rate": 100.0,
+      "memory_entries": 1
+    },
+    "prometheus_metrics": {
+      "status": "success",
+      "total_requests": 1,
+      "uptime": "0秒",
+      "prometheus_initialized": true
+    }
+  },
+  "test_time": 1768395888.4512239,
+  "summary": {
+    "total_components": 3,
+    "successful_components": 3,
+    "failed_components": 0
+  }
+}

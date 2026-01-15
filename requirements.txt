@@ -1,0 +1,9 @@
+httpx>=0.25.0
+python-dotenv>=1.0.0
+sentence-transformers>=2.2.0  # 向量化RAG所需
+faiss-cpu>=1.7.0  # 向量相似度搜索
+redis>=4.5.0  # 分布式缓存
+prometheus-client>=0.17.0  # 监控指标
+numpy>=1.24.0  # 向量计算
+pickle5; python_version < '3.8'  # Python 3.7兼容
+pickle-mixin>=1.0.0

@@ -1,0 +1,45 @@
+# 增强版智能客服Agent依赖包
+# Core dependencies
+openai>=1.0.0
+requests>=2.31.0
+aiofiles>=23.0.0
+python-dotenv>=1.0.0
+
+# 向量化RAG依赖
+sentence-transformers>=2.2.2
+transformers>=4.33.0
+torch>=2.0.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# 高级缓存依赖
+redis>=4.5.0
+pickle5>=0.0.11
+
+# 监控和指标依赖
+prometheus-client>=0.17.0
+psutil>=5.9.0
+
+# 数据处理依赖
+pandas>=2.0.0
+jieba>=0.42.1
+
+# 网络和异步依赖
+httpx>=0.24.0
+asyncio-throttle>=1.0.2
+
+# 日志和调试
+loguru>=0.7.0
+rich>=13.0.0
+
+# 测试依赖
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# 可选依赖 (用于扩展功能)
+# elasticsearch>=8.8.0  # 如果需要ES搜索
+# dramatiq>=1.13.0      # 如果需要任务队列
+# fastapi>=0.100.0      # 如果需要API服务
+# uvicorn>=0.23.0       # 如果需要Web服务
