@@ -12,7 +12,8 @@ from datetime import datetime
 # 添加项目路径
 sys.path.append('.')
 
-from agent.agents.customer_agent import CustomerServiceAgent
+# from agent.agents.customer_agent import CustomerServiceAgent
+from agent.agents.enhanced_customer_agent import EnhancedCustomerServiceAgent as CustomerServiceAgent
 
 async def demo():
     """演示智能客服监控Agent的所有功能"""
